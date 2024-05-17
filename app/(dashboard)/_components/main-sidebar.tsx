@@ -55,19 +55,7 @@ export const MainSidebar=()=>{
                         Team Boards
                     </Link>
                 </Button>
-                <Button 
-                variant={favourites? "secondary":"ghost"}
-                asChild
-                size="lg"
-                className="font-normal justify-start px-2 w-full">
-                    <Link href={{
-                        pathname:"/",
-                        query:{favourites:true}
-                    }}>
-                        <Heart className="h-4 w-4 mr-2"/>
-                        Favourite Boards
-                    </Link>
-                </Button>
+                
             </div>
         </div>
     )

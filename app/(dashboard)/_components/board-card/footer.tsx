@@ -33,15 +33,7 @@ export const Footer=({
             <p className="opacity-0 group-hover:opacity-100 transition-opacity text-[11px] text-muted-foreground truncate">
                 {authorLabel},{createdAtLabel}
             </p>
-            <button disabled={disabled}
-            onClick={handleClick}
-            className={cn("opacity-0 group-hover:opacity-100 transition absolute top-3 right-3 text-muted-foreground hover:text-red-600",
-                disabled && "cursor-not-allowed opacity-75"
-            )}>
-                <Heart 
-                className={cn("h-4 w-4",isFavourite && "fill-red-600 text-red-600")}
-                />
-            </button>
+            
         </div>
     )
 }

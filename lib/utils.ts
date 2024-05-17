@@ -155,7 +155,7 @@ export function getSvgPathFromStroke(stroke:any) {
     []
   );
   
-  // Handle the last segment
+  
   if (stroke.length > 1) {
     const [x0, y0] = stroke[stroke.length - 1];
     const [x1, y1] = stroke[0];
